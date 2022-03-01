@@ -6,7 +6,6 @@ import order_info
 import websocket_exit
 import unregister
 import time
-import variables
 
 # トークン取得
 get_token.token()

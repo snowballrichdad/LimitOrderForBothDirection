@@ -10,7 +10,6 @@ margin_trade_type = 1
 closing_deliv_type = 2
 account_type = 4
 qty = 1
-entry_price = 13200
 if side == 1:
     opposite_side = 2
 else:

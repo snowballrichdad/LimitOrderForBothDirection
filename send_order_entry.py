@@ -18,8 +18,7 @@ def send_order():
            'DelivType': 0,
            'AccountType': settings.account_type,
            'Qty': settings.qty,
-           'FrontOrderType': 20,
-           'Price': settings.entry_price,
+           'FrontOrderType': 10,
            'ExpireDay': 0}
 
     json_data = json.dumps(obj).encode('utf-8')
